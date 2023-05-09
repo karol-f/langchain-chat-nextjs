@@ -30,3 +30,25 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+node_modules
+packages/*/node_modules
+.eslintcache
+.stylelintcache
+.idea/*
+.vscode
+.next
+.history/*
+/junit.xml
+/packages/*/junit.xml
+/packages/*/junit.*.xml
+build
+dist
+coverage
+!.idea/runConfigurations/*
+/packages/**/package-lock.json
+*.log
+*.tsbuildinfo
+public
+packages/*/public
+
